@@ -123,6 +123,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
+            //change 4
         });
         builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
             @Override
