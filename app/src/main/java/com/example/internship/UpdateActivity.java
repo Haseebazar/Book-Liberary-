@@ -50,6 +50,7 @@ public class UpdateActivity extends AppCompatActivity {
                 myDB.updateData(id, title, author, pages);
                 finish();
             }
+            //change 2.
         });
         delete_button.setOnClickListener(new View.OnClickListener() {
             @Override
